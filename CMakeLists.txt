@@ -36,6 +36,9 @@ CPM_InitModule(${CPM_MODULE_NAME})
 #------------------------------------------------------------------------------
 # Eigen
 #------------------------------------------------------------------------------
+
+set(BUILD_TESTING OFF)
+
 set(EIGEN_DIR ${CMAKE_CURRENT_SOURCE_DIR}/3rdParty/eigen)
 CPM_EnsureRepoIsCurrent(
   TARGET_DIR ${EIGEN_DIR}
