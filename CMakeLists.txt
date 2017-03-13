@@ -47,8 +47,8 @@ CPM_EnsureRepoIsCurrent(
   USE_CACHING TRUE
   )
 
-add_subdirectory(${EIGEN_DIR})
+#add_subdirectory(${EIGEN_DIR})
 
 CPM_ExportAdditionalIncludeDir("${EIGEN_DIR}")
-CPM_ExportAdditionalLibraryTarget(eigen ${EIGEN_LIBRARIES})
+#CPM_ExportAdditionalLibraryTarget(eigen ${EIGEN_LIBRARIES})
 
