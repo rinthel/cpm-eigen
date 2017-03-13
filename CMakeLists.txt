@@ -46,6 +46,6 @@ CPM_EnsureRepoIsCurrent(
 
 add_subdirectory(${EIGEN_DIR})
 
-CPM_ExportAdditionalIncludeDir("${EIGEN_DIR}/include")
+CPM_ExportAdditionalIncludeDir("${EIGEN_DIR}")
 CPM_ExportAdditionalLibraryTarget(eigen ${EIGEN_LIBRARIES})
 
